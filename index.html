@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testing</h1>
+    <div id="id"></div>
+
+   <button onclick="this.innerHTML=Date()" id="count">click me</button>
+   <input type="text" id="namess" name="name" placeholder="Enter your name" onkeydown="MouseOut()"/>
+   <select id="seletc_class">
+        <option value="car">Car</option>
+        <option value="bus">Buss</option>
+   </select>
+   <h1 onmouseover="mouseHover()">hover me</h1>
+
+    <script>
+
+        function MouseOut() {
+            let current = document.getElementById("namess");
+            current.value = current.value.toUpperCase();
+        }
+       let mouse_count = 0;
+        function  mouseHover() {
+            document.getElementById('id').innerHTML = mouse_count+=1;
+        }
+        
+        document.getElementById('seletc_class').addEventListener('change',function() {
+            var self = this;
+            document.getElementById('id').innerHTML= self.value;
+        })
+       
+        // document.getElementById('name').addEventListener('change',function() {
+        //     var self = this;
+        //     self.value = self.value.toUpperCase();
+        // });
+        // function textChange(e) {
+        //     let targets = document.getElementById('name');
+        //     targets.value = targets.value.toUpperCase();
+        // }
+        let counters = 0;
+       function counter(){
+        counters += 1;
+        
+        document.getElementById('id').innerHTML=counters;
+       }
+        // var x = 10;
+        // var y = 20;
+        // const Name = (x,y)=>x+y;
+        // document.getElementById("id").innerHTML = Name(x,y);
+
+        var Ob = {
+            firstname:"naeem",
+            lastname : "khan",
+            car:['l','t','m'],
+            compare: function(){
+                if(this.firstname == this.lastname) {
+                    return this.firstname;
+                }else {
+                    return this.firstname + " " +this.lastname;
+                }
+            },
+            toValue:function(){
+                let arr =[];
+                let i = 0;
+               this.car.forEach((el,index,car)=>{
+                    arr[i++] = el;
+               })
+               return arr;
+               
+            }
+        }
+        // document.getElementById("id").innerHTML = Ob.toValue();
+        // console.log(Ob.toValue());
+     Ob.firstname = "naeem";
+     document.getElementById("id").innerHTML = Ob.firstname;
+
+
+
+    </script>
+</body>
+</html>

@@ -4,17 +4,17 @@
 
 // let khan = naem;
 
-// khan('mows');
-// naem("love");
+// khan('cars');
+// naem("car");
 
 // let khan= function( Name ) {
 //     console.log(Name);
 // }
 
 
-// let mow = khan;
-// mow("naeem");
-// khan("love");
+// let car = khan;
+// car("naeem");
+// khan("car");
 
 // let Name = (n,k) => console.log(n-k);
 
@@ -26,10 +26,10 @@
 // console.log(age);
 
 
-// let Name = ['good','love','love','khn'];
+// let Name = ['good','car','car','khn'];
 
 
-// // Name['mow'] = "khan";
+// // Name['car'] = "khan";
 // // console.log(Name);
 
 // Name.forEach((value,index) => {
@@ -37,25 +37,25 @@
 // });
 
 
-// let Name = {'good':'love','love':'khn'};
+// let Name = {'good':'car','car':'khn'};
 
-// let mow = [];
+// let car = [];
 
-// let name = typeof mow;
+// let name = typeof car;
 
 // console.log(name);
 
-// let Love = (K,L) => {
+// let car = (K,L) => {
 //     return  {
-//         'mow':K,
-//         'love':L
+//         'car':K,
+//         'car':L
 //     }
 
 // }
 
-// let mow = Love("Mow","khan");
+// let car = car("car","khan");
 
-//  console.log(mow.mow)
+//  console.log(car.car)
 
 // let Collection =  {
 //     'age':"14",
@@ -80,14 +80,14 @@
 // //     console.log(Name.khan);
 // // }
 
-// let Mow = Name.SayHi();
-// console.log(Mow);
+// let car = Name.SayHi();
+// console.log(car);
 
 // let name ={ "naem":"khan"};
-// let khan ={"mow":"mow"};
-// let love ={"khan":"khan"};
+// let khan ={"car":"car"};
+// let car ={"khan":"khan"};
 
-// Object.assign(name, khan, love);
+// Object.assign(name, khan, car);
 // console.log(name);
 
 
@@ -149,58 +149,102 @@
 // //  }
 
 
-let arr2 = [
-    { id:1,name:'naeems'},
-    { id:2,name:'naeemt'},
-    { id:3,name:'naeeml'},
-    { id:5,name:'naeemk'},
-];
-// let arr3 = [
+// let arr2 = [
 //     { id:1,name:'naeems'},
-//     { id:2,name:'naeemtf'},
-//     { id:3,name:'naeemlf'},
-//     { id:5,name:'naeemkf'},
+//     { id:2,name:'naeemt'},
+//     { id:3,name:'naeeml'},
+//     { id:5,name:'naeemk'},
 // ];
+// // let arr3 = [
+// //     { id:1,name:'naeems'},
+// //     { id:2,name:'naeemtf'},
+// //     { id:3,name:'naeemlf'},
+// //     { id:5,name:'naeemkf'},
+// // ];
 
-// let arr4= arr2.concat(arr3);
-// console.log(arr4);
+// // let arr4= arr2.concat(arr3);
+// // console.log(arr4);
 
-// arr2.splice(-2,2);
-// console.log(arr2);
+// // arr2.splice(-2,2);
+// // console.log(arr2);
 
-let arr3= [
-    {
-        "color": "#49E670",
-        "desktop": "on",
-        "hoverText": "WhatsApp",
-        "icon": "",
-        "mobile": "on",
-        "name": "WhatsApp",
-        "value": ""
-    },
-    {
-        "color": "#1E88E5",
-        "desktop": "on",
-        "hoverText": "Facebook Messenger",
-        "icon": "",
-        "mobile": "on",
-        "name": "Facebook Messenger",
-        "value": ""
-    },
-    {
-        "color": "#1E88E5",
-        "desktop": "on",
-        "hoverText": "Facebook Messenger",
-        "icon": "",
-        "mobile": "on",
-        "name": "Facebook Messenger",
-        "value": ""
-    }
-];
-// console.log(arr3);
-let naem =arr34.filter(el => el.value != '' );
-if(arr3.filter(el => el.value != '' ).length) {
-     console.log('not empty');
-    }else {   
-    console.log('empty');
-}
+// let arr3= [
+//     {
+//         "color": "#49E670",
+//         "desktop": "on",
+//         "hoverText": "WhatsApp",
+//         "icon": "",
+//         "mobile": "on",
+//         "name": "WhatsApp",
+//         "value": ""
+//     },
+//     {
+//         "color": "#1E88E5",
+//         "desktop": "on",
+//         "hoverText": "Facebook Messenger",
+//         "icon": "",
+//         "mobile": "on",
+//         "name": "Facebook Messenger",
+//         "value": ""
+//     },
+//     {
+//         "color": "#1E88E5",
+//         "desktop": "on",
+//         "hoverText": "Facebook Messenger",
+//         "icon": "",
+//         "mobile": "on",
+//         "name": "Facebook Messenger",
+//         "value": ""
+//     }
+// ];
+// // console.log(arr3);
+// let naem =arr34.filter(el => el.value != '' );
+// if(arr3.filter(el => el.value != '' ).length) {
+//      console.log('not empty');
+//     }else {   
+//     console.log('empty');
+// }
+
+
+// let arr = ['naeem','khan'];
+// let [first,last] = "John Smith".split(' ');
+// console.log(first);
+// let [firstName, title] = ["Julius", "Caesar", "Consul", "of the Roman Republic"];
+// console.log(title);
+// "use strict";
+// // car ="naeem";
+// // var car;
+// console.log(car);
+
+// let name = 10;
+
+
+// function Names() {
+//      let name = 30;
+// }
+// Names();
+// console.log(name);
+
+// let x = 10+12+"naeem";
+
+// console.log(x);
+
+// //string all function
+let name = "naeemkfsklhfsdlkjfsdlhfsd";
+console.log(name.length);
+
+
+let ecaping_strig = "WPPOOL is one of the best";
+
+// console.log(ecaping_strig);
+// \"software\" \t company in\' \\the \v world
+// let extract = ecaping_strig.slice(3,6)
+// console.log(extract);
+
+// let newString = "mfs".padStart(4,'n');
+// let 
+
+// console.log(ch);
+let splits = ecaping_strig.split(' ');
+
+console.log(splits);
