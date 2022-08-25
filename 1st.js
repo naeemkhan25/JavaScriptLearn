@@ -194,11 +194,12 @@
 //         "icon": "",
 //         "mobile": "on",
 //         "name": "Facebook Messenger",
-//         "value": ""
+//         "value": "naeem"
 //     }
 // ];
-// // console.log(arr3);
-// let naem =arr34.filter(el => el.value != '' );
+// // // console.log(arr3);
+// let naem =arr3.filter(el => el.value != '' );
+// console.log(naem);
 // if(arr3.filter(el => el.value != '' ).length) {
 //      console.log('not empty');
 //     }else {   
@@ -230,11 +231,11 @@
 // console.log(x);
 
 // //string all function
-let name = "naeemkfsklhfsdlkjfsdlhfsd";
-console.log(name.length);
+// let name = "naeemkfsklhfsdlkjfsdlhfsd";
+// console.log(name.length);
 
 
-let ecaping_strig = "WPPOOL is one of the best";
+// let ecaping_strig = "WPPOOL is one of the best";
 
 // console.log(ecaping_strig);
 // \"software\" \t company in\' \\the \v world
@@ -245,6 +246,90 @@ let ecaping_strig = "WPPOOL is one of the best";
 // let 
 
 // console.log(ch);
-let splits = ecaping_strig.split(' ');
+// let splits = ecaping_strig.split(' ');
 
-console.log(splits);
+// console.log(splits);
+
+// let arr = ['naeem','khan','pool']; 
+// let are = [10,34,43,21,2];
+// // let newA = JSON.stringify(arr);
+// console.log(Array.isArray(arr));
+
+// arr.push("plugins");
+// // console.log(arr);
+// arr.unshift("naeem");
+// console.log(arr);
+//  arr.splice(2,1,'naeem');
+// console.log(arr);
+
+// let newss  = arr.slice(1);
+// console.log(arr);
+// console.log(newss);
+// console.log(arr.sort());
+// console.log(are.sort((a,b)=>a-b));
+
+
+let arr3= [
+    {
+        "color": "#49E670",
+        "desktop": "on",
+        "hoverText": "WhatsApp",
+        "icon": "",
+        "mobile": "on",
+        "name": "WhatsApp",
+        "value": ""
+    },
+    {
+        "color": "#1E88E5",
+        "desktop": "on",
+        "hoverText": "Facebook Messenger",
+        "icon": "",
+        "mobile": "on",
+        "name": "Facebook Messenger",
+        "value": "naeem"
+    },
+    {
+        "color": "#1E88E5",
+        "desktop": "on",
+        "hoverText": "Facebook Messenger",
+        "icon": "",
+        "mobile": "on",
+        "name": "Facebook Messenger",
+        "value": "naeem"
+    }
+];
+// let arr = [];
+// let newArss = arr3.filter((Element,index,arr3)=>{
+//     return Element.value;
+// });
+
+// console.log(newArss);
+
+// let mapss = arr3.map((Element,index,arr)=>{
+//    return Element.color;
+
+// });
+// console.log(mapss);
+// console.log(arr3);
+
+// let defaultDate = new Date();
+// console.log(defaultDate);
+
+// let names = [ 'naeem','Khan'];
+
+// // for (let key in name ) {
+// //     console.log(name[key]);
+// // }
+// for ( let x of names ) {
+//     console.log(x);
+// }
+
+
+// try catch example 
+
+
+try {
+addEalert("name");
+} catch( error) {
+    console.log(error.message);
+}

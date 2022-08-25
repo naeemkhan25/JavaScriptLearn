@@ -17,8 +17,21 @@
         <option value="bus">Buss</option>
    </select>
    <h1 onmouseover="mouseHover()">hover me</h1>
+   <h1>String Template</h1>
+   <div id="Html_template"></div>
 
     <script>
+        let stringValue = "Hello Naeem how are you";
+        let listArray= ['naeem','khan','wppool'];
+
+        let Html =`<h1>${stringValue}</h1><ul>`;
+
+        listArray.forEach((el)=>{
+            Html += `<li>${el}</li>`;
+        });
+        Html+=`</ul>`;
+        document.getElementById('Html_template').innerHTML = Html;
+
 
         function MouseOut() {
             let current = document.getElementById("namess");
@@ -78,6 +91,8 @@
         // console.log(Ob.toValue());
      Ob.firstname = "naeem";
      document.getElementById("id").innerHTML = Ob.firstname;
+
+    
 
 
 
